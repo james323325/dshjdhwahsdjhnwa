@@ -6,7 +6,7 @@ from telegram import Bot, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # Replace this with your actual Telegram bot token
-TOKEN = '8111308700:AAH_6AjN90Im0Na3AsiEWRaAIjpMtn1cpeI'
+TOKEN = '8130850216:AAFYu2JK_dP9UCOKyBfPj1XKpqhh3EeNlnA'
 
 # Replace this with your actual Telegram group chat ID
 GROUP_CHAT_ID = '-1004685401427'  # Keep the '-' in the ID
@@ -93,3 +93,4 @@ if __name__ == '__main__':
     except RuntimeError as e:
         if "This event loop is already running" in str(e):
             asyncio.create_task(run_bot_and_log_monitor())
+
